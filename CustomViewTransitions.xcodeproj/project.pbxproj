@@ -21,6 +21,9 @@
 		42CFD6061832B2B6004BED8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFD5E81832B2B6004BED8E /* UIKit.framework */; };
 		42CFD60E1832B2B6004BED8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CFD60C1832B2B6004BED8E /* InfoPlist.strings */; };
 		42CFD6101832B2B6004BED8E /* CustomViewTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CFD60F1832B2B6004BED8E /* CustomViewTransitionsTests.m */; };
+		42CFD61B1832B3B3004BED8E /* THMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CFD61A1832B3B3004BED8E /* THMenuViewController.m */; };
+		42CFD61E1832B92B004BED8E /* THAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CFD61D1832B92B004BED8E /* THAnimator.m */; };
+		42CFD6211832BE84004BED8E /* THDynamicAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CFD6201832BE84004BED8E /* THDynamicAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		42CFD60B1832B2B6004BED8E /* CustomViewTransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomViewTransitionsTests-Info.plist"; sourceTree = "<group>"; };
 		42CFD60D1832B2B6004BED8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42CFD60F1832B2B6004BED8E /* CustomViewTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewTransitionsTests.m; sourceTree = "<group>"; };
+		42CFD6191832B3B3004BED8E /* THMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMenuViewController.h; sourceTree = "<group>"; };
+		42CFD61A1832B3B3004BED8E /* THMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMenuViewController.m; sourceTree = "<group>"; };
+		42CFD61C1832B92B004BED8E /* THAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAnimator.h; sourceTree = "<group>"; };
+		42CFD61D1832B92B004BED8E /* THAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAnimator.m; sourceTree = "<group>"; };
+		42CFD61F1832BE84004BED8E /* THDynamicAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDynamicAnimator.h; sourceTree = "<group>"; };
+		42CFD6201832BE84004BED8E /* THDynamicAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDynamicAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				42CFD5FA1832B2B6004BED8E /* THViewController.m */,
 				42CFD5FC1832B2B6004BED8E /* Images.xcassets */,
 				42CFD5EB1832B2B6004BED8E /* Supporting Files */,
+				42CFD6191832B3B3004BED8E /* THMenuViewController.h */,
+				42CFD61A1832B3B3004BED8E /* THMenuViewController.m */,
+				42CFD61C1832B92B004BED8E /* THAnimator.h */,
+				42CFD61D1832B92B004BED8E /* THAnimator.m */,
+				42CFD61F1832BE84004BED8E /* THDynamicAnimator.h */,
+				42CFD6201832BE84004BED8E /* THDynamicAnimator.m */,
 			);
 			path = CustomViewTransitions;
 			sourceTree = "<group>";
@@ -250,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CFD6211832BE84004BED8E /* THDynamicAnimator.m in Sources */,
 				42CFD5FB1832B2B6004BED8E /* THViewController.m in Sources */,
+				42CFD61B1832B3B3004BED8E /* THMenuViewController.m in Sources */,
+				42CFD61E1832B92B004BED8E /* THAnimator.m in Sources */,
 				42CFD5F51832B2B6004BED8E /* THAppDelegate.m in Sources */,
 				42CFD5F11832B2B6004BED8E /* main.m in Sources */,
 			);

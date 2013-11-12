@@ -1,5 +1,5 @@
 //
-//  THViewController.h
+//  THMenuViewController.h
 //  CustomViewTransitions
 //
 //  Created by Workshop on 11/12/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface THViewController : UIViewController <UIViewControllerTransitioningDelegate>
+@interface THMenuViewController : UIViewController
 
 @end
